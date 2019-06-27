@@ -1,0 +1,35 @@
+Machine sequences and processing times
+Jobs	Machine sequences and processing times (s)
+J1	M1(6)   M3(40)    M2(81)   M4(37)   M5(19)   
+J2	M3(40)   M4(32)   M1(55)   M5(81)   M2(9)   
+J3	M2(46)   M5(65)   M3(70)   M4(55)   M1(77)   
+J4	M3(21)   M5(65)   M1(64)   M4(25)   M2(15)   
+J5	M3(85)   M1(40)   M2(44)   M4(24)   M5(37)   
+J6	M1(89)   M5(29)   M2(83)   M4(31)   M3(84)   
+J7	M5(59)   M4(38)   M2(80)   M3(30)   M1(8)   
+J8	M1(80)   M3(56)   M2(77)   M5(41)   M4(97)   
+J9	M5(56)   M1(91)   M4(50)   M3(71)   M2(17)   
+J10	M2(40)   M1(88)   M5(59)   M3(7)    M4(80)   
+J11	M1(45)   M2(29)   M3(8)    M5(77)   M4(58)   
+J12	M3(36)   M1(54)   M4(96)   M2(9)    M5(10)   
+J13	M1(28)   M3(73)   M2(98)   M4(92)   M5(87)   
+J14	M1(70)   M4(86)   M3(27)   M2(99)   M5(96)   
+J15	M2(95)   M1(59)   M5(56)   M4(85)   M3(41)   
+J16	M2(81)   M3(92)   M5(32)   M1(52)   M4(39)   
+J17	M2(7)    M5(22)   M3(12)   M1(88)   M4(60)   
+J18	M4(45)   M1(93)   M3(69)   M5(49)   M2(27)   
+J19	M1(21)   M2(84)   M3(61)   M4(68)   M5(26)   
+J20	M2(82)   M3(33)   M5(71)   M1(99)   M4(44)   
+
+Dynamic events
+Dynamic events	Occurrence time	Event type	Information about dynamic events
+D1		0		2		J4 M2 88
+D2		0		2		J10 M1 67
+D3		0		2		J17 M5 58
+D4		42		1		J21 M4 25 M2 41 M1 84 M3 28 M5 72
+D5		42		0		M3 13
+D6		42		3		J3
+D7		99		1		J22 M5 51 M3 71 M2 66 M1 74 M4 89
+D8		129		0		M4 10
+D9		194		1		J23 M2 49 M5 20 M1 40 M3 12 M4 79
+D10		194		3		J1
